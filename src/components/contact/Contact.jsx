@@ -3,6 +3,8 @@ import './contact.css'
 
 export default function Contact() {
   return (
-    <div>Contact</div>
+    <div id="contactus" class="section-padding bg-dark">
+      
+    </div>
   )
 }

@@ -10,7 +10,7 @@ export default function Flow() {
       <div class="container mt-5">
         <div class="row text-center">
           <div class="col-12">
-            <div class="text-center section-title" data-aos="fade-right" data-aos-delay="200">
+            <div class="text-center section-title">
               <h1 class="display-4 fw-semibold">Assessment Flow</h1>
               <div class="line">
               </div>
@@ -18,8 +18,8 @@ export default function Flow() {
           </div>
           <div class="assflow-cont">
             <div>
-                <a href="#appoint" target="_blank" class="btn btn-appoint image-button text-center" data-aos="fade-up"
-                  data-aos-delay="300">BOOK APPOINTMENT</a>
+                <a href="#appoint" target="_blank" class="btn btn-appoint image-button text-center">
+                  BOOK APPOINTMENT</a>
             </div>
           </div>
         </div>

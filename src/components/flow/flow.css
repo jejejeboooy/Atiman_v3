@@ -17,8 +17,8 @@
 
 #assflow {
     background: linear-gradient(rgba(var(--c-brand-rgb), 0.01), rgba(var(--c-brand-rgb), 0.01)), url(../flow/assesment-flow.jpg);
-    position: absolute;
-    width: 100%;
+    position: center;
+    height: 100%;
     justify-content: center;
     align-items: center;
     display: inline-block;

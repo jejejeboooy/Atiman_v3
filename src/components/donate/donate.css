@@ -1,0 +1,82 @@
+:root {
+    --c-dark: #052520;
+    --c-brand: #0e6833;
+    --c-brand-light: #11b173;
+    --c-brand-rgb: 64, 162, 120;
+    --c-brand-rgb-dark: 4, 98, 118;
+    --c-body: #a0a0a0;
+    --box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.08);
+    --transition: all 0.5s ease;
+    --c-brand-lesslight: #21352686;
+}
+
+.section-title {
+    margin-bottom: 60px;
+}
+
+.section-title .line {
+    width: 200px;
+    height: 5px;
+    background-color: var(--c-brand);
+    margin: 16px auto 24px auto;
+}
+
+.section-content {
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--c-dark);
+}
+
+.section-padding {
+    padding-top: 100px;
+    padding-bottom: 140px;
+}
+
+.assflow-cont {
+    position: relative;
+    display: inline-block;
+}
+
+#donate {
+    padding-top: 200px;
+    padding-bottom: 300px;
+    text-align: center;
+    justify-content: center;
+}
+
+.btn {
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 0;
+    padding: 10px 24px;
+}
+
+.btn-appoint {
+    background-color: var(--c-brand);
+    border-color: var(--c-brand-lesslight);
+    color: white;
+    border-radius: 7px;
+}
+
+.btn-appoint:hover {
+    background-color: var(--c-brand-lesslight);
+    border-color: var(--c-brand);
+    color: white;
+}
+
+.image-button {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#assflow {
+    background: azure;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
