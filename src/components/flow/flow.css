@@ -1,0 +1,39 @@
+:root {
+    --c-dark: #052520;
+    --c-brand: #0e6833;
+    --c-brand-light: #11b173;
+    --c-brand-rgb: 64, 162, 120;
+    --c-brand-rgb-dark: 4, 98, 118;
+    --c-body: #a0a0a0;
+    --box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.08);
+    --transition: all 0.5s ease;
+    --c-brand-lesslight: #21352686;
+}
+
+.section-padding {
+    padding-top: 100px;
+    padding-bottom: 140px;
+}
+
+#assflow {
+    background: linear-gradient(rgba(var(--c-brand-rgb), 0.01), rgba(var(--c-brand-rgb), 0.01)), url(../flow/assesment-flow.jpg);
+    position: absolute;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    color: azure;
+}
+
+.assflow-cont {
+    position: relative;
+    display: inline-block;
+}
+
+.section-title .line {
+    width: 200px;
+    height: 5px;
+    background-color: var(--c-brand);
+    margin: 16px auto 24px auto;
+}
+
