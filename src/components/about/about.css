@@ -1,0 +1,101 @@
+:root {
+    --c-dark: #052520;
+    --c-brand: #0e6833;
+    --c-brand-light: #11b173;
+    --c-brand-rgb: 64, 162, 120;
+    --c-brand-rgb-dark: 4, 98, 118;
+    --c-body: #a0a0a0;
+    --box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.08);
+    --transition: all 0.5s ease;
+    --c-brand-lesslight: #21352686;
+}
+
+.section-title {
+    margin-bottom: 60px;
+}
+
+.section-title .line {
+    width: 200px;
+    height: 5px;
+    background-color: var(--c-brand);
+    margin: 16px auto 24px auto;
+}
+
+.section-title p {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--c-dark);
+}
+
+.section-content {
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--c-dark);
+}
+
+.theme-shadow {
+    box-shadow: var(--box-shadow);
+}
+
+#about-bg {
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: black;
+}
+
+.section-padding {
+    padding-top: 100px;
+    padding-bottom: 140px;
+}
+
+.box-first {
+    position: static;
+    overflow: hidden;
+    z-index: 2;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: #149f87;
+    color: white;
+}
+
+.box-second {
+    position: static;
+    overflow: hidden;
+    z-index: 2;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: #e07d32;
+    color: white;
+}
+
+.box-third {
+    position: static;
+    overflow: hidden;
+    z-index: 2;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: #0baee1;
+    color: white;
+}
+
+.box-fourth {
+    position: static;
+    overflow: hidden;
+    z-index: 2;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    background-color: #8e45b9;
+    color: white;
+}
