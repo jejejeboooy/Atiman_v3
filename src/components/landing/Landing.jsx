@@ -15,7 +15,7 @@ export default function Landing() {
                   Anxiety, Depression, Negative Thoughts,
                 </h5>
                 <h5>
-                  Irrational Feeligns, Harmful Habits,
+                  Irrational Feeligns, Harmful Habits
                 </h5>
                 <h5>
                   Don't let these things bring you down.

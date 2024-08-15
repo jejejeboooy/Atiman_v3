@@ -25,7 +25,7 @@
     justify-content: left;
     display: flex;
     padding-top: 80px;
-    padding-bottom: 70px;
+    padding-bottom: 200px;
 }
 
 .appoint {
@@ -54,8 +54,13 @@
     cursor: pointer;
 }
 
+.btn-appoint:hover {
+  background-color: #45a049;
+  color: black;
+}
+
 .btn-apt {
-    margin-top: 50px;
+    margin-top: 100px;
     min-width: 1000px;
 }
 
@@ -94,15 +99,15 @@
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
-    border-radius: 50px; /* Oblong shape */
+    border-radius: 5px; /* Oblong shape */
     margin-top: 5px;
   }
   
   .submit-btn {
-    background-color: #4CAF50;
+    background-color: var(--c-brand);
     color: white;
     border: none;
-    border-radius: 50px; /* Oblong shape */
+    border-radius: 5px; /* Oblong shape */
     padding: 10px 20px;
     cursor: pointer;
     font-size: 16px;

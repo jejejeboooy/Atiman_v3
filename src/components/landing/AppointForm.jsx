@@ -40,7 +40,7 @@ const AppointForm = ({ onSendAppointment, lastId }) => {
         className={`btn-appoint ${toggleForm ? "rounded-t-md" : "rounded-md"}`}
       >
         <div className="inline-block align-text-top"> 
-          Book Appointment
+          Set appointment
         </div>
       </button>
       {toggleForm && (
