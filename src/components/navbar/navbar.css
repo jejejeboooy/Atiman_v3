@@ -51,3 +51,35 @@
 .btn:hover {
     color:black;
 }
+/* Mobile and tablet-specific styles */
+@media (max-width: 768px) {
+    .navbar {
+        justify-content: center;
+    }
+
+    .navbar-brand {
+        position: static;
+        flex: 1;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .navbar-nav {
+        display: none; /* Hide nav items if needed */
+    }
+}
+
+/* Extra styles for very small screens */
+@media (max-width: 480px) {
+    .navbar {
+        height: auto; /* Adjust height for small screens */
+    }
+
+    .navbar-brand {
+        padding: 10px; /* Add some padding if needed */
+    }
+
+    .navbar-nav {
+        display: none; /* Hide nav items if needed */
+    }
+}
