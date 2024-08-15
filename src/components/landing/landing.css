@@ -1,0 +1,37 @@
+:root {
+    --c-dark: #052520;
+    --c-brand: #0e6833;
+    --c-brand-light: #11b173;
+    --c-brand-rgb: 64, 162, 120;
+    --c-brand-rgb-dark: 4, 98, 118;
+    --c-body: #a0a0a0;
+    --box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.08);
+    --transition: all 0.5s ease;
+    --c-brand-lesslight: #21352686;
+}
+
+#landpg {
+    background: linear-gradient(rgba(var(--c-brand-rgb), 0.01), rgba(var(--c-brand-rgb), 0.01)), url(../landing/bgw3.jpeg);
+    margin-top: 0;
+    background-size: cover;
+    display: flex;
+    color: black;
+}
+
+#freepg {
+    background: linear-gradient(rgba(var(--c-brand-rgb), 0.1), rgba(var(--c-brand-rgb), 0.5)), url(../landing/free.png);
+    background-position: center;
+    background-size: cover;
+    justify-content: left;
+    display: flex;
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+
+.appoint {
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: #052520;
+    display: flex;
+}
