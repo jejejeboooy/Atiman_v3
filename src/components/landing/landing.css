@@ -34,4 +34,26 @@
     justify-content: center;
     box-shadow: #052520;
     display: flex;
+    width: 100%;
+}
+
+.btn-appoint {
+    background-color: #0e6833;
+    /* Green */
+    border: 2px solid rgba(16, 131, 77, 0.63);
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    font-size: 1.2rem;
+    border-radius: 6px;
+    /* Adjust radius as needed */
+    cursor: pointer;
+}
+
+.btn-apt {
+    margin-top: 200px;
 }

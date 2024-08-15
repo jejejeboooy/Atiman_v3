@@ -11,26 +11,28 @@ export default function Landing() {
           <div className="row ms-5">
             <div className="col-12">
               <div>
-                <h3>
-                Anxiety, Depression, Negative Thoughts,
-                Irrational Feeligns, Harmful Habits, Out of Touch with Reality.
-                Don't let these things bring you down.
-                </h3>
-                <h1>
-                We're here to help.
+                <h5>
+                  Anxiety, Depression, Negative Thoughts,
+                </h5>
+                <h5>
+                  Irrational Feeligns, Harmful Habits,
+                </h5>
+                <h5>
+                  Don't let these things bring you down.
+                </h5>
+                <h1 className="fw-bold">
+                  We're here to help.
                 </h1>
-                <h3>
-                Because you need not go through this alone.
-                </h3>
+                <h4>
+                  Because you need not go through this alone.
+                </h4>
               </div>
-              <div>
-                <a href="#" className="btn btn-brand me-2 mt-5"
-                  data-bs-toggle="modal" data-bs-target="#staticBackdrop">Discover more</a>
+              <div className="btn-apt">
+                <AppointForm />
               </div>
             </div>
           </div>
         </div>
-        <AppointForm />
       </div>
     </div>
   )
